@@ -40,3 +40,87 @@ The name of the constructor provides the name of the class to instantiate.
 Q11. Where and how should be class attributes created?
 answer:--Class attributes are the variables defined directly in the class that are shared by all objects of the class
 The new operator returns a reference to the object it created.
+
+Q12. Where and how are instance attributes created?
+answer:--Instance attributes are defined in the constructor.
+
+Q13. What does the term "self" in a Python class mean?
+answer:--The self parameter is a reference to the current instance of the class
+
+Q14. How does a Python class handle operator overloading?
+answer:-- The operator overloading in Python means provide extended meaning beyond their predefined operational meaning.
+
+Q15. When do you consider allowing operator overloading of your classes?
+answer:-- Ensures that objects of a class behave consistently with built-in types and other user-defined types. 
+
+Q16. What is the most popular form of operator overloading?
+answer:-- The most frequent instance is the adding up operator '+',
+
+Q17. What are the two most important concepts to grasp in order to comprehend Python OOP code?
+answer:--Both inheritance and polymorphism
+
+Q18. Describe three applications for exception processing.
+answer:--Exception handling is the process of responding to unwanted or unexpected events when a computer program runs. 
+
+Q19. What happens if you don't do something extra to treat an exception?
+answer:-- the program terminates abruptly and the code past the line that caused the exception will not get executed.
+
+Q20. What are your options for recovering from an exception in your script?
+answer:-- The except block is executed when an exception occurs within the try block
+
+Q21. Describe two methods for triggering exceptions in your script.
+answer:-- Try – This method catches the exceptions raised by the program. 
+Raise – Triggers an exception manually using custom exceptions
+
+Q22. Identify two methods for specifying actions to be executed at termination time, regardless of
+whether or not an exception exists.
+answer:-- If no exception occurs during the execution, the execution will reach the break statement and the while loop will be left.
+
+Q23. What is the purpose of the try statement?
+answer:--The try statement allows you to define a block of code to be tested for errors while it is being executed.
+
+Q24. What are the two most popular try statement variations?
+answer:--  else and finally
+
+Q25. What is the purpose of the raise statement?
+answer:--The RAISE statement stops normal execution of a PL/SQL block or subprogram and transfers control to an exception handler.
+
+Q26. What does the assert statement do, and what other statement is it like?
+answer:-- The assert keyword lets you test if a condition in your code returns True, if not, the program will raise an AssertionError.
+
+Q27. What is the purpose of the with/as argument, and what other statement is it like?
+answer:--  More importantly, it ensures closing resources right after processing them
+
+Q28. What are *args, **kwargs?
+answer:--*args specifies the number of non-keyworded arguments that can be passed and the operations that can be performed on the function in Python
+whereas **kwargs is a variable number of keyworded arguments that can be passed to a function that can perform dictionary operations.
+
+Q29. How can I pass optional or keyword parameters from one function to another?
+answer:-- To pass, collect the arguments using the * and ** in the function’s parameter list. 
+Through this, you will get the positional arguments as a tuple and the keyword arguments as a dictionary.
+Pass these arguments when calling another function by using * and ** −
+
+Q30. What are Lambda Functions?
+answer:-- A lambda function is a small anonymous function.
+A lambda function can take any number of arguments, but can only have one expression.
+
+Q31. Explain Inheritance in Python with an example?
+answer:-- Inheritance relationship defines the classes that inherit from other classes as derived, subclass, or sub-type classes.
+
+Q33. Which methods/functions do we use to determine the type of instance and inheritance?
+answer:-- Use isinstance() to check an instance's type: isinstance(obj, int) will be True only if obj.__class__ is int or some class derived from int .
+Use issubclass() to check class inheritance: issubclass(bool, int) is True since bool is a subclass of int.
+
+Q34.Explain the use of the 'nonlocal' keyword in Python.
+answer:-- The nonlocal keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function. 
+
+Q35. What is the global keyword?
+answer:--Global keyword is used to modify the global variable outside its current scope and meaning.
+
+
+
+
+
+
+
+
