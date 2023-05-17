@@ -1,1 +1,42 @@
+1 What is the purpose of Python's OOP?
+answer:-- it allows us to develop applications using an Object-Oriented approach.
+In Python, we can easily create and use classes and objects. 
+An object-oriented paradigm is to design the program using classes and objects.
 
+Q2. Where does an inheritance search look for an attribute?
+answer:--An inheritance search looks for an attribute first in the instance object,
+then in the class the instance was created from, then in all higher superclasses, progressing from left to right (by default).
+
+Q3. How do you distinguish between a class object and an instance object?
+answer:-- A class is a type of blueprint that you can use to make objects.
+A concrete 'thing' that you constructed using a certain class is an object, which is an instance of a class.
+
+Q4. What makes the first argument in a class’s method function special?
+answer:-- A class method is similar to an instance method, but it has a class object passed as its first argument.
+Recall that, when an instance method is called from an instance object,
+that instance object is automatically passed as the first argument to the method.
+
+Q5. What is the purpose of the init method?
+answer:--The __init__ method lets the class initialize the object's attributes and serves no other purpose.
+
+Q6. What is the process for creating a class instance?
+To create instances of a class, you call the class using class name and pass in whatever arguments its __init__ method accepts.
+
+Q7. What is the process for creating a class?
+answer:--Create class.
+Enter the class name. (Optional) To enter a short description, grade level, or class time, tap Section and enter the details.
+
+Q8. How would you define the superclasses of a class?
+answer:-- A class that is derived from another class is called a subclass (also a derived class, extended class, or child class).
+The class from which the subclass is derived is called a superclass
+
+Q9. What is the relationship between classes and modules?
+answer:--A class is more of a unit, and a module is essentially a loose collection of stuff like functions, variables, or even classes.
+
+Q10. How do you make instances and classes?
+answer:-- The new operator requires a single, postfix argument: a call to a constructor.
+The name of the constructor provides the name of the class to instantiate.
+
+Q11. Where and how should be class attributes created?
+answer:--Class attributes are the variables defined directly in the class that are shared by all objects of the class
+The new operator returns a reference to the object it created.
